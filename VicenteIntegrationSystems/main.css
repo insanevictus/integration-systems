@@ -1,0 +1,25 @@
+body {
+    background-color: powderblue;
+    border: 1px solid; 
+    margin: 10%; 
+    border-color: black;
+}
+.flex-list {
+  display: flex;
+  list-style: disc;
+}
+
+.flex-list li {
+  margin-right: 20px;
+}
+
+.left{
+    width: 30%;
+}
+.right{
+    right: auto;
+}
+.content{
+    display: flex;
+    list-style: disc;
+}
