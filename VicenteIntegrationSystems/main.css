@@ -1,25 +1,41 @@
 body {
     background-color: powderblue;
     border: 1px solid; 
-    margin: 10%; 
     border-color: black;
+    font-size: 16px;
 }
 .flex-list {
   display: flex;
-  list-style: disc;
+  justify-content: center;
 }
 
 .flex-list li {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .left{
-    width: 30%;
+    width: 35%;
 }
 .right{
-    right: auto;
+    width: 100%;
+    align-items: flex-start;
 }
 .content{
     display: flex;
-    list-style: disc;
+    margin-bottom: 20px;
+} 
+.container {
+    width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 30px;
+    box-sizing: border-box;
 }
+
+.ref-list {
+    display: flex; 
+    justify-content: space-between;
+    gap: 15px;
+}
+
